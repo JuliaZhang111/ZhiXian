@@ -1,0 +1,85 @@
+{
+  "pages": [
+    "pages/enter/enter",
+    "pages/login2/login2",
+    "pages/home/home",
+    "pages/internship/internship",
+    "pages/events/events",
+    "pages/silkbag/silkbag",
+    "pages/community/community"
+    
+  ],
+  
+  "window": {
+    "navigationBarTitleText": "直线实习",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#B0B0B0",
+    "selectedColor": "fadb14",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/internship/internship",
+        "text": "找实习",
+        "iconPath": "pages/image/internship.png",
+        "selectedIconPath": "pages/image/internship1.png"
+      },
+      {
+        "pagePath": "pages/events/events",
+        "text": "活动",
+        "iconPath": "pages/image/events.png",
+        "selectedIconPath": "pages/image/events1.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "pages/image/index.png",
+        "selectedIconPath": "pages/image/index1.png"
+      },
+      {
+        "pagePath": "pages/silkbag/silkbag",
+        "text": "锦囊",
+        "iconPath": "pages/image/silkbag.png",
+        "selectedIconPath": "pages/image/silkbag1.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "直线社区",
+        "iconPath": "pages/image/community.png",
+        "selectedIconPath": "pages/image/community1.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-cell-group": "@vant/weapp/cell-group/index",
+    "van-divider": "@vant/weapp/divider/index",
+    "van-field": "@vant/weapp/field/index",
+    "van-notice-bar": "@vant/weapp/notice-bar/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-dropdown-menu": "@vant/weapp/dropdown-menu/index",
+    "van-dropdown-item": "@vant/weapp//dropdown-item/index",
+    "van-card": "@vant/weapp//card/index",
+    "van-image": "@vant/weapp//image/index",
+    "van-checkbox": "@vant/weapp//checkbox/index",
+    "van-checkbox-group": "@vant/weapp//checkbox-group/index",
+    "van-tag": "@vant/weapp//tag/index",
+    "van-row": "@vant/weapp//row/index",
+    "van-col": "@vant/weapp//col/index",
+    "van-search": "@vant/weapp//search/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index",
+    "van-dropdown-menu": "@vant/weapp/dropdown-menu/index",
+    "van-dropdown-item": "@vant/weapp/dropdown-item/index",
+    "i-card": "./dist/card-ivew/index",
+    "i-icon": "./dist/icon-ivew/index",
+    "i-progress": "./dist/progress-ivew/index"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,23 @@
+
+<view class="enter" bindtap="Navigate" opentype="">
+  <text>\n</text>
+  <text>你\n</text>
+  <text>的\n</text>
+  <text>实\n</text>
+  <text>习\n</text>
+  <text>直\n</text>
+  <text>线\n</text>
+  <text>给\n\n</text>
+  <view class="title">
+  <text>Staight Line Intern\n\n</text></view>
+  <view>
+  <van-image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1608009924454&di=2bf4816cbb9e1c3f68fbb9ac414fc416&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20200301%2Fbcb9662e165c48f8a1f859e1e19fa298.jpeg" round
+  width="20rem"
+  height="20rem"/>
+  </view>
+  
+  
+</view>
+
+ 
+

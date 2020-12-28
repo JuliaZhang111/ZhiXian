@@ -1,0 +1,28 @@
+/* miniprogram/pages/login2.wxss */
+.icon{
+  margin:auto;
+  width:50%;
+}
+.nickname{
+  text-align: center;
+}
+/**index.wxss**/
+.itemView{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 0px;
+  height: 40px;
+ 
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
+.input{
+width: 300px;
+height: 40px; 
+border: 1px solid lightgray;
+
+}
+.btn{
+  float:right;
+}

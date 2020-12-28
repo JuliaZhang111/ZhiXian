@@ -1,0 +1,65 @@
+<!--miniprogram/pages/login2.wxml-->
+<view class="user">
+<view><text>\n\n</text></view>
+<view class="icon">
+<image
+style="width: 200px; height: 200px; "
+  src="../image/zxicon.png"
+/>
+<view class="nickname"><text>你的实习，直线给</text></view>
+</view>
+
+<view><text>\n\n\n\n\n\n</text></view>
+</view>
+<!--
+<van-cell-group>
+  <van-field
+  
+    required
+    clearable
+    label="用户名"
+    icon="question-o"
+    placeholder="请输入用户名"
+    bind:input="getUsername"
+  
+  />
+
+  <van-field
+  
+    type="password"
+    label="密码"
+    placeholder="请输入密码"
+    required
+    border="{{ false }}"
+    bind:input="getPassword"
+  />
+</van-cell-group>
+
+<view class="itemView">用 户：
+<input class='input' placeholder='请输入用户名' bindinput='getUsername'></input>
+</view>
+<view class="itemView">密 码：
+<input class='input' placeholder='请输入密码' bindinput='getPassword'></input>
+</view>
+-->
+<view class="loginBox">
+  <view style='width:70%;margin-left:15%;'>
+   <view style='border-top-left-radius:8px;border-top-right-radius:8px;width:100%;height:38px;display:inline-block;background:#fff;'>
+    <view style='width:20%;display:inline-block;height:80%;'><van-icon name="user-o" /></view>
+    <input style='width:80%;display:inline-block;height:100%;' placeholder-style='font-size:12px;' placeholder='请输入用户名'  bindinput='getUsername'></input>
+   </view>
+   <view style='width:100%;height:38px;display:inline-block;background:#fff;margin-top:-5px;border-top:1px solid #f8f8f8;border-bottom-left-radius:8px;border-bottom-right-radius:8px;'>
+    <view style='width:20%;display:inline-block;height:80%;'><van-icon name="closed-eye" /></view>
+    <input style='width:80%;display:inline-block;height:100%;' placeholder-style='font-size:12px;' placeholder='密码' bindinput='getPassword'></input>     
+   </view>
+  </view> 
+</view>
+
+
+<view><text>\n</text></view>
+
+<van-button type="primary" size="large"  bindtap="login" color="#fadb14">登录</van-button>
+<view><text>\n</text></view>
+<van-button type="default" class="btn" bindtap="home">跳转到首页 >></van-button>
+
+

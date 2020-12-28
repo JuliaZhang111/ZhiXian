@@ -1,0 +1,303 @@
+<!--pages/home/home.wxml-->
+<!-- 功能选项a -->
+
+<!-- bannner -->
+<view  class="home">
+<view class="banner-box">
+	<image src="../image/banner1.png"></image>
+</view>
+
+
+<!--实习意向-->
+<view class="recommendation-box">
+	<view class="recommendation-text">实习意向</view>
+</view>
+	<view class="check">
+	<van-row class="row">
+		<van-col span="6">
+<label class="checkbox">
+  <checkbox value="cb" checked="false" color="#fadb14"/>产品
+			</label></van-col>
+			<van-col span="6">
+<label class="checkbox">
+  <checkbox value="cb" color="#fadb14"/>运营
+			</label></van-col>
+			<van-col span="6" >
+<label class="checkbox">
+  <checkbox value="cb" color="#fadb14"/>市场
+			</label></van-col>
+			<van-col span="6">
+<label class="checkbox">
+  <checkbox value="cb"color="#fadb14" />HR
+			</label>
+		</van-col>
+			</van-row>
+</view>
+
+
+<!--投递管理-->
+<view class="recommendation-box">
+	<view class="recommendation-text">投递管理</view>
+</view>
+
+<van-tabs  type="line" active="{{ active }}" bind:change="onChange" color="#fadb14">
+
+	<van-tab title="已投递">
+		
+		<view>
+    
+			<van-card
+  			tag="产品"
+  			title="微信搜一搜"
+  			thumb="https://www.tencent.com/img/index/tencent_logo.png"
+				>
+				<view slot="desc">准备面试，复习资料</view>
+				<view>\n\n</view>
+				<view slot="tags">
+					<van-tag plain type="success">11.26</van-tag>
+					<van-tag plain type="success">8:00AM</van-tag>
+				</view>
+				<view slot="footer">
+					<van-row class="card">
+						<van-col>
+							<button class="btn"></button>
+							<image src="../image/编辑.png" class="btn1"></image>
+						</van-col>
+						<van-col>
+							<button class="btn"></button>
+							<image src="../image/删除.png " class="btn1"></image>
+						</van-col>
+					</van-row>
+				</view>
+			</van-card>
+			<van-card
+  			tag="产品"
+  			title="微信搜一搜"
+  			thumb="https://www.tencent.com/img/index/tencent_logo.png"
+				>
+				<view slot="desc">准备面试</view>
+				<view>\n\n</view>
+				<view slot="tags">
+					<van-tag plain type="success">11.26</van-tag>
+					<van-tag plain type="success">8:00AM</van-tag>
+				</view>
+				<view slot="footer">
+					<van-row class="card">
+						<van-col>
+							<button class="btn"></button>
+							<image src="../image/编辑.png" class="btn1"></image>
+						</van-col>
+						<van-col>
+							<button class="btn"></button>
+							<image src="../image/删除.png " class="btn1"></image>
+						</van-col>
+					</van-row>
+				</view>
+			</van-card>
+			
+		
+		</view>
+	
+	</van-tab>
+
+	
+	<van-tab title="想投递"> 
+	<view>
+	<van-card
+  			tag="产品"
+  			title="京东健康"
+  			thumb="https://gss3.bdstatic.com/84oSdTum2Q5BphGlnYG/timg?wapp&quality=80&size=b150_150&subsize=20480&cut_x=0&cut_w=0&cut_y=0&cut_h=0&sec=1369815402&srctrace&di=3254dcf92b94e6d6ecaa192cbd539f87&wh_rate=null&src=http%3A%2F%2Ftb1.bdstatic.com%2Ftb%2Fr%2Fimage%2F2017-09-11%2F3e3c8f449aa316a94ed005fb8b470628.png"
+				>
+				<view slot="desc">调查资料，准备题库</view>
+				<view>\n\n</view>
+				<view slot="tags">
+					<van-tag plain type="success">11.26</van-tag>
+					<van-tag plain type="success">8:00AM</van-tag>
+				</view>
+				<view slot="footer">
+					<van-row class="card">
+						<van-col>
+							<button class="btn"></button>
+							<image src="../image/编辑.png" class="btn1"></image>
+						</van-col>
+						<van-col>
+							<button class="btn"></button>
+							<image src="../image/删除.png " class="btn1"></image>
+						</van-col>
+					</van-row>
+				</view>
+			</van-card>
+			<van-card
+  			tag="产品"
+  			title="京东健康"
+  			thumb="https://gss3.bdstatic.com/84oSdTum2Q5BphGlnYG/timg?wapp&quality=80&size=b150_150&subsize=20480&cut_x=0&cut_w=0&cut_y=0&cut_h=0&sec=1369815402&srctrace&di=3254dcf92b94e6d6ecaa192cbd539f87&wh_rate=null&src=http%3A%2F%2Ftb1.bdstatic.com%2Ftb%2Fr%2Fimage%2F2017-09-11%2F3e3c8f449aa316a94ed005fb8b470628.png"
+				>
+				<view slot="desc">调查资料</view>
+				<view>\n\n</view>
+				<view slot="tags">
+					<van-tag plain type="success">11.26</van-tag>
+					<van-tag plain type="success">8:00AM</van-tag>
+				</view>
+				<view slot="footer">
+					<van-row class="card">
+						<van-col>
+							<button class="btn"></button>
+							<image src="../image/编辑.png" class="btn1"></image>
+						</van-col>
+						<van-col>
+							<button class="btn"></button>
+							<image src="../image/删除.png " class="btn1"></image>
+						</van-col>
+					</van-row>
+				</view>
+			</van-card>
+	</view>
+	</van-tab>
+
+</van-tabs>
+			
+
+
+
+
+<!--活动安排-->
+<view class="recommendation-box">
+	<view class="recommendation-text">活动安排</view>
+</view>
+<view>
+	<i-card title="产品群面模拟" extra="自强studio 活动" thumb="https://www.ziqiang.net.cn/static/img/icon.png">
+    <view slot="content">11.26   下午3：00~4：00  
+			<view class="location" >  
+				<i-icon type="coordinates_fill" color="#fadb14"/><text>武汉大学</text></view>  
+		</view>
+    <view slot="footer">
+			<view  class="progress-item">
+				<van-row>
+  				<van-col span="16">	<i-progress percent="{{ percent }}"  hide-info class="progress"></i-progress></van-col>
+  				<van-col span="4" offset="4"><text class="fraction">{{ result_x }}/{{result_y}}</text></van-col>
+				</van-row>
+			</view>
+    </view>
+</i-card>
+</view>
+
+<!--今日热帖-->
+<view class="recommendation-box">
+	<view class="recommendation-text">今日热帖</view>
+</view>
+
+			<view class="action">
+				<text class="cuIcon-titles text-orange "></text> 热门面经
+			</view>
+			<view><text>\n</text></view>
+
+			<view class="article">
+				<i-card title="【面经】腾讯微信搜一搜面试经验分享，超多干货！" extra="今日热门排行榜第1">
+    			<view slot="content">
+						<text>上个月投递了微信事业群，没想到进了二面，分享一下经验...\n\n</text>
+					</view>
+    			<view slot="footer">
+						<view>
+						<van-row>
+						<van-col span="4" offset="4"> 
+							<van-icon name="good-job-o"  size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4">
+							<van-icon name="comment-o" size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4"> 
+							<van-icon name="share" size="20px" color="#fadb14"/>
+						</van-col>
+					</van-row>
+				</view>
+					</view>
+				</i-card>
+			</view>
+		
+	
+
+<!--提升攻略-->
+<view class="recommendation-box">
+	<view class="recommendation-text">提升攻略</view>
+</view>
+	<view>
+	<van-card
+  num="839人正在学"
+	origin-price="39.99"
+  price="2.99"
+  title="产品经理校招8大必考技能修炼之道"
+  thumb="http://image.woshipm.com/wp-files/2020/06/tu5hxT67tyIzoGOuKuYq.jpg">
+		<view slot="footer">
+    	<van-button size="small" type="primary" color="#fadb14">立即学习</van-button>
+  	</view>
+	</van-card>
+	</view>
+
+
+    
+<!-- <view class="select-box">
+	<view data-url="../../Companypackage/newHouse/newHouse" bindtap="Navigate">
+	 
+		<image src="../image/newHouse.png"></image>
+	</view>
+	<view data-url="../../Companypackage/secondHandHouse/secondHandHouse" bindtap="Navigate">
+		<image src="../image/secondHand.png"></image>
+	</view>
+	<view data-url="../../Companypackage/rentingHouse/rentingHouse" bindtap="Navigate">
+		<image src="../image/rentinghouse.png"></image>
+	</view>
+</view> 
+
+
+
+
+
+<view class="header-box">
+	<view class="header-row">
+		<view class="header-cell" wx:for="{{headerList}}" wx:key='key' data-url="{{item.url}}" bindtap="Navigate">
+			<view>
+				<image src="{{item.icon}}"></image>
+			</view>
+			<view class="font-size-12 text-color">{{item.text}}</view>
+		</view>
+	</view>
+</view>
+-->
+
+
+
+
+
+<!-- 推荐列表 -->
+<view class="recommendation-list-box" wx:for="{{HouseList}}" wx:key='key' data-url="{{item.url}}" data-id="{{item._id}}" bindtap="NavigateToDetail">
+	<view class="card">
+		<view class="card-left">
+			<image mode="scaleToFill" src="{{item.photoInfo[0]}}"></image>
+			<view class="card-tag-box card-tag card-tag-mark card-tag-bg">推荐</view>
+		</view>
+		<view class="card-right">
+			<view class="card-title">{{item.title}}</view>
+			<view class="card-content-box">
+
+				<view class="card-content-box-row-top">
+					<view class="content-row">
+						<view class="float-left font-weight">{{item.FormData.roomStyle}} {{item.FormData.area}}㎡</view>
+						<view class="float-right price-text">{{item.FormData.totalPrice}}{{item.EntrustType=='sale'?'万':'元/月'}}</view>
+					</view>
+					<view class="content-row">
+						<view class="float-left text-grey">{{item.FormData.location}}</view>
+						<view class="float-right text-grey">{{item.EntrustType=='sale'?item.FormData.averagePrice:''}}{{item.EntrustType=='sale'?'元/㎡':''}}</view>
+					</view>
+				</view>
+
+				<view class="card-content-box-row-bottom">
+					<view class="content-tag bg-tag bg-cyan light" wx:for="{{item.FormData.Tags}}" wx:for-item="tag" wx:key='key'>{{tag}}</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+
+<!-- 占位 -->
+<view style="height:20px;"></view>
+</view>

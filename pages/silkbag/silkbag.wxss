@@ -1,0 +1,59 @@
+/**index.wxss**/
+
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  box-sizing: border-box;
+} 
+
+/* 横着的分割View样式 */
+/*分割线样式*/
+.divLine{
+  background: #fadb14;
+  width: 100%;
+  height: 5rpx;
+ }
+
+ .recommendation-box {
+  height: 40px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.recommendation-text {
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 8px;
+}
+.thumb-class{
+  width:10px;
+  height: 10px;
+}

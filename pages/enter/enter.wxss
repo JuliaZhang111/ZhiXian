@@ -1,0 +1,19 @@
+/* miniprogram/pages/enter.wxss */
+.enter{
+  text-align: center;
+  background-color: #fadb14;
+  height:100%;
+  width:100%;
+  position:fixed;
+}
+.title{
+  font-family:Georgia;
+  font-style:italic;
+  font-weight:bold;
+  color:#ffffff;
+  animation: bounceInDown;
+  animation-duration: 2s;
+}
+text {
+  font-size:150%;
+}

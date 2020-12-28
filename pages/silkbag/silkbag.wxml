@@ -1,0 +1,110 @@
+<view class="box">
+  <view class="cu-bar search bg-white">
+    <view class="cu-avatar round" style="background-image:url(https://image.weilanwl.com/img/square-2.jpg);"></view>
+    <view class="search-form round">
+      <text class="cuIcon-search"></text>
+      <input type="text" placeholder="搜索学习资料..." confirm-type="search"></input>
+    </view>
+  </view>
+</view>
+
+<van-grid column-num="3" icon-color="#fadb14">
+  
+  <van-grid-item icon="send-gift-o" text="笔试题库" />
+  <van-grid-item icon="hot-o" text="面经汇总" />
+  <van-grid-item icon="records" text="学习资料" />
+ 
+</van-grid>
+
+<view class="recommendation-box">
+	<view class="recommendation-text">正在学习</view>
+</view>
+
+
+
+<i-card title="产品新手课" extra="今日未学习" thumb="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3777519884,632384901&fm=26&gp=0.jpg">
+    <view slot="content">产品经理入门必看       234人正在学</view>
+    <view slot="footer">
+      <view class="progress-box">
+  <progress percent="20" show-info stroke-width="3" color="#fadb14"/>
+</view>
+    </view>
+</i-card>
+
+
+
+
+
+<view class="recommendation-box">
+	<view class="recommendation-text">直线精选</view>
+</view>
+
+<view class="container">
+  <view class="divLine"></view>
+</view>
+	<view>
+	<van-card
+  num="839人正在学"
+	origin-price="39.99"
+  price="2.99"
+  title="产品经理校招8大必考技能修炼之道"
+  thumb="http://image.woshipm.com/wp-files/2020/06/tu5hxT67tyIzoGOuKuYq.jpg">
+		<view slot="footer">
+    	<van-button size="small" type="primary" color="#fadb14">立即学习</van-button>
+  	</view>
+	</van-card>
+	</view>
+<view>
+  <text>\n</text>
+</view>
+
+<view>
+	<van-card
+  num=" 15687人做过"
+	origin-price="39.99"
+  price="0"
+  title="产品运营面试题库"
+  thumb="https://imgcdn.61app.com/qxy/20200604/5ed897db3f25b.png">
+		<view slot="footer">
+    	<van-button size="small" type="primary" color="#fadb14">立即学习</van-button>
+  	</view>
+	</van-card>
+	</view>
+<view>
+  <text>\n</text>
+</view>
+
+<view>
+	<van-card
+  num=" 465人看过"
+  title="产品方向精华面经集合"
+  thumb="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=520262315,3411689835&fm=15&gp=0.jpg">
+		<view slot="footer">
+    	<van-button size="small" type="primary" color="#fadb14">立即学习</van-button>
+  	</view>
+	</van-card>
+	</view>
+<view>
+  <text>\n</text>
+</view>
+
+
+<view>
+	<van-card
+  num=" 55人正在学"
+  title="C语言入门自学指南"
+  origin-price="39.99"
+  price="0"
+  thumb="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2082710481,3378312374&fm=15&gp=0.jpg">
+		<view slot="footer">
+    	<van-button size="small" type="primary" color="#fadb14">立即学习</van-button>
+  	</view>
+	</van-card>
+	</view>
+<view>
+  <text>\n</text>
+</view>
+
+
+
+

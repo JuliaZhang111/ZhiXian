@@ -1,0 +1,117 @@
+<!--miniprogram/pages/events/events.wxml-->
+<!--搜索框-->
+<view class="home">
+<van-search
+  value="{{ value }}"
+  shape="round"
+  background="#fadb14"
+  placeholder="请输入搜索关键词"
+/>
+
+<!--活动推荐-->
+<view class="recommendation-box">
+	<view class="recommendation-text">活动推荐</view>
+</view>
+
+
+<view class="action">
+	<i-card title="产品群面模拟" extra="自强Studio" thumb="https://www.ziqiang.net.cn/static/img/icon.png">
+		
+    <view slot="content">
+				11.26   下午3：00~4：00  
+				 
+				<i-icon type="coordinates_fill" color="#fadb14"/><text>武汉大学</text> 
+				<van-tag mark type="primary" class="tag" color="#fadb14">活动</van-tag>
+			</view> 
+    <view slot="footer">
+			<view  class="progress-item">
+				<van-row>
+  				<van-col span="16">	<i-progress percent="{{ percent }}"  hide-info class="progress"></i-progress></van-col>
+  				<van-col span="4" offset="4"><text class="fraction">{{ result_x }}/{{result_y}}</text></van-col>
+				</van-row>
+			</view>
+			<view>
+				<text>\n</text>
+				<van-col span="6" offset="10"><van-button size="small" type="primary" color="#fadb14">立即参加</van-button></van-col>
+				<text>\n</text>
+			</view>
+			<view>
+				<text>\n</text>
+			</view>
+    </view>
+</i-card>
+			<view>
+				<text>\n</text>
+			</view>
+</view>
+
+
+
+
+<view class="action">
+
+	<i-card title="掌上校园项目" extra="冰岩作坊" thumb="https://www.bingyan.net/static/img/product-4.3d62593.png">
+		
+    <view slot="content">
+				1.12 晚23：59截止  
+				<i-icon type="coordinates_fill" color="#0EE069"/><text>华中科技大学/线上</text> 
+				<van-tag mark type="primary" class="tag" color="#0EE069">项目</van-tag>
+			</view> 
+    <view slot="footer">
+			<view  class="progress-item">
+				<van-row>
+  				<van-col span="16">	<i-progress percent="{{ percent }}"  hide-info class="progress2"></i-progress></van-col>
+  				<van-col span="4" offset="4"><text class="fraction">{{ result_x }}/{{result_y}}</text></van-col>
+				</van-row>
+			</view>
+			<view>
+				<text>\n</text>
+				<van-col span="6" offset="10"><van-button size="small" type="primary" color="#fadb14">立即参加</van-button></van-col>
+  			<text>\n</text>
+			</view>
+			<view>
+				<text>\n</text>
+			</view>
+    </view>
+</i-card>
+			<view>
+				<text>\n</text>
+			</view>
+</view>
+
+<view>
+<i-card title="互联网+组队" extra="起得比鸡早小组" thumb="https://cy.ncss.cn/cachepicture?path=3aw05w01qdoz61xw">
+		
+    <view slot="content">
+				1.1 晚23：59截止  
+				<i-icon type="coordinates_fill" color="#39B1CB"/><text>武汉/线上</text> 
+				<van-tag mark type="primary" class="tag" color="#39B1CB">比赛</van-tag>
+			</view> 
+    <view slot="footer">
+			<view  class="progress-item">
+				<van-row>
+  				<van-col span="16">	<i-progress percent="{{ percent }}"  hide-info class="progress"></i-progress></van-col>
+  				<van-col span="4" offset="4"><text class="fraction">{{ result_x }}/{{result_y}}</text></van-col>
+				</van-row>
+			</view>
+			<view>
+				<text>\n</text>
+				<van-col span="6" offset="10"><van-button size="small" type="primary" color="#fadb14">立即参加</van-button></van-col>
+  			<text>\n</text>
+			</view>
+			<view>
+				<text>\n</text>
+			</view>
+    </view>
+</i-card>
+			<view>
+				<text>\n</text>
+			</view>
+</view>
+
+
+
+
+
+
+</view>

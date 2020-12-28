@@ -1,0 +1,175 @@
+<van-tabs  type="line" active="{{ active }}" bind:change="onChange" color="#fadb14">
+  <van-tab title="社区">
+    <view><text>\n</text></view>
+    <view class="article">
+				<i-card title="【面经】腾讯微信搜一搜面试经验分享，超多干货！" extra="今日热门排行榜第1">
+    			<view slot="content">
+						<text>上个月投递了微信事业群，没想到进了二面，分享一下经验...\n\n</text>
+					</view>
+    			<view slot="footer">
+						<view>
+						<van-row>
+						<van-col span="4" offset="4"> 
+							<van-icon name="good-job-o"  size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4">
+							<van-icon name="comment-o" size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4"> 
+							<van-icon name="share" size="20px" color="#fadb14"/>
+						</van-col>
+					</van-row>
+				</view>
+					</view>
+				</i-card>
+      </view>
+      
+      <view><text>\n</text></view>
+    <view class="article">
+				<i-card title="【面经】字节跳动双非秋招入职经验分享" extra="今日热门排行榜第5">
+    			<view slot="content">
+						<text>双非毕业如何进入字节跳动，我的秋招offer手册\n\n</text>
+					</view>
+    			<view slot="footer">
+						<view>
+						<van-row>
+						<van-col span="4" offset="4"> 
+							<van-icon name="good-job-o"  size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4">
+							<van-icon name="comment-o" size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4"> 
+							<van-icon name="share" size="20px" color="#fadb14"/>
+						</van-col>
+					</van-row>
+				</view>
+					</view>
+				</i-card>
+			</view>
+
+			<view><text>\n</text></view>
+    <view class="article">
+				<i-card title="【经验】大厂与独角兽公司产品岗的区别" extra="一周热度榜第1">
+    			<view slot="content">
+						<text>2015毕业后先后进入鹅厂、猪厂，后跳槽到一家独角兽，分享一些过来人经验\n\n</text>
+					</view>
+    			<view slot="footer">
+						<view>
+						<van-row>
+						<van-col span="4" offset="4"> 
+							<van-icon name="good-job-o"  size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4">
+							<van-icon name="comment-o" size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4"> 
+							<van-icon name="share" size="20px" color="#fadb14"/>
+						</van-col>
+					</van-row>
+				</view>
+					</view>
+				</i-card>
+			</view>
+
+			<view><text>\n</text></view>
+    <view class="article">
+				<i-card title="【面经i】快手-用户增长产品-一面，许愿经" >
+    			<view slot="content">
+						<text>1.自我介绍 2.工作中最有成就的事\n\n</text>
+					</view>
+    			<view slot="footer">
+						<view>
+						<van-row>
+						<van-col span="4" offset="4"> 
+							<van-icon name="good-job-o"  size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4">
+							<van-icon name="comment-o" size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4"> 
+							<van-icon name="share" size="20px" color="#fadb14"/>
+						</van-col>
+					</van-row>
+				</view>
+					</view>
+				</i-card>
+			</view>
+  </van-tab>
+
+  <van-tab title="提问">
+ <view><text>\n</text></view>
+    <view class="article">
+				<i-card title="offer比较，求指点，已有美团产品和玛氏市场？" extra="悬赏5元">
+    			<view slot="content">
+						<text>共5条回答 未采纳\n\n</text>
+					</view>
+    			<view slot="footer">
+						<view>
+						<van-row>
+						<van-col span="4" offset="4"> 
+							<van-icon name="good-job-o"  size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4">
+							<van-icon name="comment-o" size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4"> 
+							<van-icon name="share" size="20px" color="#fadb14"/>
+						</van-col>
+					</van-row>
+				</view>
+					</view>
+				</i-card>
+			</view>
+			
+			<view><text>\n</text></view>
+			<view class="article">
+				<i-card title="选哪个？腾讯地图AI方向实习or字节跳动火山小视频运营？" extra="悬赏5元">
+    			<view slot="content">
+						<text>共6条回答 未采纳\n\n</text>
+					</view>
+    			<view slot="footer">
+						<view>
+						<van-row>
+						<van-col span="4" offset="4"> 
+							<van-icon name="good-job-o"  size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4">
+							<van-icon name="comment-o" size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4"> 
+							<van-icon name="share" size="20px" color="#fadb14"/>
+						</van-col>
+					</van-row>
+				</view>
+					</view>
+				</i-card>
+			</view>
+			
+				
+			<view><text>\n</text></view>
+			<view class="article">
+				<i-card title="求问大佬大厂非校招实习值得去吗？已有小厂校招实习offer" extra="悬赏3元">
+    			<view slot="content">
+						<text>共0条回答 未采纳\n\n</text>
+					</view>
+    			<view slot="footer">
+						<view>
+						<van-row>
+						<van-col span="4" offset="4"> 
+							<van-icon name="good-job-o"  size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4">
+							<van-icon name="comment-o" size="20px"/>
+						</van-col>
+						<van-col span="4" offset="4"> 
+							<van-icon name="share" size="20px" color="#fadb14"/>
+						</van-col>
+					</van-row>
+				</view>
+					</view>
+				</i-card>
+      </view>
+  </van-tab>
+</van-tabs>
+
